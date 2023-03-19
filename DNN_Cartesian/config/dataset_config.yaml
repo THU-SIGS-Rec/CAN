@@ -1,0 +1,20 @@
+### Tiny data for tests only
+tiny_h5:
+    data_root: ../../data/
+    data_format: h5
+    train_data: ../../data/tiny_h5/train.h5
+    valid_data: ../../data/tiny_h5/valid.h5
+    test_data: ../../data/tiny_h5/test.h5
+
+Ali_Display_Ad_Click:
+    data_root: ../data/
+    data_format: csv
+    train_data: ../data/Ali_Display_Ad_Click/train.csv
+    valid_data: ../data/Ali_Display_Ad_Click/valid.csv
+    test_data: ../data/Ali_Display_Ad_Click/test.csv
+    min_categr_count: 1
+    feature_cols:
+        [{name: ["user","adgroup_id","pid","cate_id","campaign_id","customer","brand",
+                 "cms_segid","cms_group_id","final_gender_code","age_level","pvalue_level","shopping_level","occupation","new_user_class_level"], 
+                 active: True, dtype: str, type: categorical}, {name: "price", active: True, dtype: float, type: numeric}]
+    label_col: {name: clk, dtype: float}
