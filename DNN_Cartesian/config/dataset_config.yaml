@@ -18,3 +18,39 @@ Ali_Display_Ad_Click:
                  "cms_segid","cms_group_id","final_gender_code","age_level","pvalue_level","shopping_level","occupation","new_user_class_level"], 
                  active: True, dtype: str, type: categorical}, {name: "price", active: True, dtype: float, type: numeric}]
     label_col: {name: clk, dtype: float}
+
+Avazu_x1:
+    data_root: ../data/
+    data_format: h5
+    train_data: ../data/Avazu_x1/train.h5
+    valid_data: ../data/Avazu_x1/valid.h5
+    test_data: ../data/Avazu_x1/test.h5
+#    min_categr_count: 1
+#    feature_cols:
+#        [{name: ["feat_1", "feat_2", "feat_3", "feat_4", "feat_5", "feat_6", "feat_7", "feat_8", "feat_11", "feat_12", "feat_13", "feat_14", "feat_15", "feat_16", "feat_17", "feat_18", "feat_19", "feat_20", "feat_21", "feat_22"], 
+#                 active: True, dtype: str, type: categorical}]
+#    label_col: {name: label, dtype: float}
+
+Avazu_x4:
+    data_root: ../data/
+    data_format: h5
+    train_data: ../data/Avazu_x4/train.h5
+    valid_data: ../data/Avazu_x4/valid.h5
+    test_data: ../data/Avazu_x4/test.h5
+#    min_categr_count: 1
+#    feature_cols:
+#        [{name: ["hour", "C1", "banner_pos", "site_id", "site_domain", "site_category", "app_id", "app_domain", "app_category", "device_id", "device_ip", "device_model", "device_type", "device_conn_type", "C14", "C15", "C16", "C17", "C18", "C19", "C20", "C21"], 
+#                 active: True, dtype: str, type: categorical}]
+#    label_col: {name: click, dtype: float}
+
+Avazu_x4_d:
+    data_root: ../data/
+    data_format: csv
+    train_data: ../data/Avazu_x4_d/train.csv
+    valid_data: ../data/Avazu_x4_d/valid.csv
+    test_data: ../data/Avazu_x4_d/test.csv
+    min_categr_count: 1
+    feature_cols:
+        [{name: ["hour", "C1", "banner_pos", "site_id", "site_domain", "site_category", "app_id", "app_domain", "app_category", "device_id", "device_model", "device_type", "device_conn_type", "C14", "C15", "C16", "C17", "C18", "C19", "C20", "C21"], 
+                 active: True, dtype: str, type: categorical}]
+    label_col: {name: click, dtype: float}

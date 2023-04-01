@@ -1,0 +1,201 @@
+{
+    "dataset_id": "Avazu_x4_d",
+    "num_fields": 21,
+    "total_features": 38297,
+    "input_length": 21,
+    "labels": [
+        "click"
+    ],
+    "group_id": "device_id",
+    "features": [
+        {
+            "hour": {
+                "source": "",
+                "type": "categorical",
+                "padding_idx": 0,
+                "oov_idx": 241,
+                "vocab_size": 242
+            }
+        },
+        {
+            "C1": {
+                "source": "",
+                "type": "categorical",
+                "padding_idx": 0,
+                "oov_idx": 8,
+                "vocab_size": 9
+            }
+        },
+        {
+            "banner_pos": {
+                "source": "",
+                "type": "categorical",
+                "padding_idx": 0,
+                "oov_idx": 8,
+                "vocab_size": 9
+            }
+        },
+        {
+            "site_id": {
+                "source": "",
+                "type": "categorical",
+                "padding_idx": 0,
+                "oov_idx": 1708,
+                "vocab_size": 1709
+            }
+        },
+        {
+            "site_domain": {
+                "source": "",
+                "type": "categorical",
+                "padding_idx": 0,
+                "oov_idx": 1552,
+                "vocab_size": 1553
+            }
+        },
+        {
+            "site_category": {
+                "source": "",
+                "type": "categorical",
+                "padding_idx": 0,
+                "oov_idx": 19,
+                "vocab_size": 20
+            }
+        },
+        {
+            "app_id": {
+                "source": "",
+                "type": "categorical",
+                "padding_idx": 0,
+                "oov_idx": 1618,
+                "vocab_size": 1619
+            }
+        },
+        {
+            "app_domain": {
+                "source": "",
+                "type": "categorical",
+                "padding_idx": 0,
+                "oov_idx": 100,
+                "vocab_size": 101
+            }
+        },
+        {
+            "app_category": {
+                "source": "",
+                "type": "categorical",
+                "padding_idx": 0,
+                "oov_idx": 24,
+                "vocab_size": 25
+            }
+        },
+        {
+            "device_id": {
+                "source": "",
+                "type": "categorical",
+                "padding_idx": 0,
+                "oov_idx": 26848,
+                "vocab_size": 26849
+            }
+        },
+        {
+            "device_model": {
+                "source": "",
+                "type": "categorical",
+                "padding_idx": 0,
+                "oov_idx": 3582,
+                "vocab_size": 3583
+            }
+        },
+        {
+            "device_type": {
+                "source": "",
+                "type": "categorical",
+                "padding_idx": 0,
+                "oov_idx": 5,
+                "vocab_size": 6
+            }
+        },
+        {
+            "device_conn_type": {
+                "source": "",
+                "type": "categorical",
+                "padding_idx": 0,
+                "oov_idx": 5,
+                "vocab_size": 6
+            }
+        },
+        {
+            "C14": {
+                "source": "",
+                "type": "categorical",
+                "padding_idx": 0,
+                "oov_idx": 1851,
+                "vocab_size": 1852
+            }
+        },
+        {
+            "C15": {
+                "source": "",
+                "type": "categorical",
+                "padding_idx": 0,
+                "oov_idx": 9,
+                "vocab_size": 10
+            }
+        },
+        {
+            "C16": {
+                "source": "",
+                "type": "categorical",
+                "padding_idx": 0,
+                "oov_idx": 10,
+                "vocab_size": 11
+            }
+        },
+        {
+            "C17": {
+                "source": "",
+                "type": "categorical",
+                "padding_idx": 0,
+                "oov_idx": 402,
+                "vocab_size": 403
+            }
+        },
+        {
+            "C18": {
+                "source": "",
+                "type": "categorical",
+                "padding_idx": 0,
+                "oov_idx": 5,
+                "vocab_size": 6
+            }
+        },
+        {
+            "C19": {
+                "source": "",
+                "type": "categorical",
+                "padding_idx": 0,
+                "oov_idx": 65,
+                "vocab_size": 66
+            }
+        },
+        {
+            "C20": {
+                "source": "",
+                "type": "categorical",
+                "padding_idx": 0,
+                "oov_idx": 156,
+                "vocab_size": 157
+            }
+        },
+        {
+            "C21": {
+                "source": "",
+                "type": "categorical",
+                "padding_idx": 0,
+                "oov_idx": 60,
+                "vocab_size": 61
+            }
+        }
+    ]
+}
